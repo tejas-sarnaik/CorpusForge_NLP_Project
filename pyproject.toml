@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "corpusforge-nlp"
+version = "0.1.0"
+description = "Local-first NLP dataset auditing: near-duplicates, split leakage, PII hints and text quality"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Tejas Sarnaik", email = "tejassarnaik2120@gmail.com"}]
+keywords = ["nlp", "datasets", "data-quality", "leakage", "deduplication", "privacy"]
+classifiers = ["Programming Language :: Python :: 3", "Operating System :: OS Independent", "Topic :: Text Processing :: Linguistic"]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[project.scripts]
+corpusforge = "corpusforge.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100

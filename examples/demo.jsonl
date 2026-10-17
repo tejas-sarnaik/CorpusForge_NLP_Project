@@ -1,0 +1,5 @@
+{"id":"r1","split":"train","text":"The quick brown fox jumps over the lazy dog."}
+{"id":"r2","split":"test","text":"  THE quick brown fox jumps over the lazy dog. "}
+{"id":"r3","split":"train","text":"Please contact demo@example.org to receive the project notes."}
+{"id":"r4","split":"validation","text":"Short"}
+{"id":"r5","split":"train","text":"This is an independent sentence discussing natural language processing."}
