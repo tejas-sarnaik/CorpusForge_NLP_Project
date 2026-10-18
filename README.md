@@ -12,7 +12,6 @@
 [Quick start](#-quick-start) · [Features](#-features) · [CLI](#-command-line-interface) · [Python API](#-python-api) · [Limitations](#-limitations--responsible-use) · [Contributing](CONTRIBUTING.md)
 </div>
 
----
 
 ## 🚀 Why CorpusForge?
 
