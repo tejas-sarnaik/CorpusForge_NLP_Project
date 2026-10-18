@@ -2,7 +2,6 @@
 
 # 🔎 CorpusForge
 ### Know your NLP dataset *before* you train.
-
 **A zero-runtime-dependency, local-first dataset auditor for duplicate text, train/test leakage, possible PII and text-quality anomalies.**
 
 [![CI](https://img.shields.io/badge/CI-GitHub_Actions-2088FF?logo=githubactions)](.github/workflows/ci.yml)
@@ -11,7 +10,6 @@
 [![Contributions welcome](https://img.shields.io/badge/Contributions-welcome-orange.svg)](CONTRIBUTING.md)
 
 [Quick start](#-quick-start) · [Features](#-features) · [CLI](#-command-line-interface) · [Python API](#-python-api) · [Limitations](#-limitations--responsible-use) · [Contributing](CONTRIBUTING.md)
-
 </div>
 
 ---
